@@ -1,0 +1,20 @@
+[
+    {
+        "res_id": "Nur.kz",
+        "link": "https://www.nur.kz/latest/",
+        "title": "article-preview-category__content",
+        "content": "article-preview-category__subhead",
+        "nd_date": "article-preview-category__text", 
+        "s_date": "article-preview-category__date-time",
+        "not_date": "article-preview-category__text"
+    },
+    {
+        "res_id": "Nur.kz",
+        "link": "https://www.nur.kz/latest/",
+        "title": "article-preview-category__content",
+        "content": "article-preview-category__subhead",
+        "nd_date": "article-preview-category__text", 
+        "s_date": "article-preview-category__date-time",
+        "not_date": "article-preview-category__text"
+    }
+]

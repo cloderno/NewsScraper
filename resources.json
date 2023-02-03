@@ -1,0 +1,42 @@
+[
+    {
+        "RESOURCE_NAME": "Nur.kz",
+        "RESOURCE_URL": "https://www.nur.kz/latest/",
+        "top_tag": "article-preview-category__content",
+        "bottom_tag": "article-preview-category__subhead",
+        "title_cut": "article-preview-category__text", 
+        "date_cut": "article-preview-category__date-time"
+    },
+    {
+        "RESOURCE_NAME": "Nur.kz",
+        "RESOURCE_URL": "https://www.nur.kz/latest/",
+        "top_tag": "announce",
+        "bottom_tag": "lead",
+        "title_cut": "title", 
+        "date_cut": "article-preview-category__date-time"
+    },
+    {
+        "RESOURCE_NAME": "Nur.kz",
+        "RESOURCE_URL": "https://www.nur.kz/latest/",
+        "top_tag": "article-preview-category__content",
+        "bottom_tag": "article-preview-category__subhead",
+        "title_cut": "article-preview-category__text", 
+        "date_cut": "article-preview-category__date-time"
+    },
+    {
+        "RESOURCE_NAME": "Nur2.kz",
+        "RESOURCE_URL": "https://www.nur.kz/latest/",
+        "top_tag": "article-preview-category__content",
+        "bottom_tag": "article-preview-category__subhead",
+        "title_cut": "article-preview-category__text", 
+        "date_cut": "article-preview-category__date-time"
+    },
+    {
+        "RESOURCE_NAME": "Nur2.kz",
+        "RESOURCE_URL": "https://www.nur.kz/latests/",
+        "top_tag": "article-preview-category__content",
+        "bottom_tag": "article-preview-category__subhead",
+        "title_cut": "article-preview-category__text", 
+        "date_cut": "article-preview-category__date-time"
+    }
+]
