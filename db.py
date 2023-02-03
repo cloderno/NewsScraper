@@ -4,7 +4,7 @@ import json
 # Подключение к бд
 def create_connection():
     return mysql.connector.connect(
-        database="mysql",
+        database="test",
         host="127.0.0.1",
         user="root",
         password="root"

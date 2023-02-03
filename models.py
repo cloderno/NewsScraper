@@ -19,6 +19,7 @@ class Resource:
         ) 
         '''
 
+        # print(add_to_database)
         cursor.execute(add_to_database)
         conn.commit()
 
@@ -67,11 +68,11 @@ class Items:
 
         for obj in scraped_array: 
             add_to_database = f'''
-            INSERT INTO `items` (id, res_id, link, title, content, nd_date, s_date)
-            SELECT '{obj['id']}', '{int(33)}', '{obj['link']}', '{obj['title']}', '{obj['content']}' ,'{obj['nd_date']}', '{obj['s_date']}'
+            INSERT INTO `items` (res_id, link, title, content, nd_date, s_date)
+            SELECT  '{int(33)}', '{obj['link']}', '{obj['title']}', '{obj['content']}' ,'{obj['nd_date']}', '{obj['s_date']}'
             FROM DUAL
             WHERE NOT EXISTS (
-                SELECT * FROM items WHERE nd_date = '{obj['nd_date']}'
+                SELECT * FROM items WHERE nd_date = '{obj['nd_date']}' AND title = '{obj['title']}'
             )'''
 
             cursor.execute(add_to_database)

@@ -1,42 +1,26 @@
 [
     {
-        "RESOURCE_NAME": "Nur.kz",
+        "RESOURCE_NAME": "nur.kz",
         "RESOURCE_URL": "https://www.nur.kz/latest/",
-        "top_tag": "article-preview-category__content",
-        "bottom_tag": "article-preview-category__subhead",
-        "title_cut": "article-preview-category__text", 
-        "date_cut": "article-preview-category__date-time"
+        "top_tag": "article>a",
+        "bottom_tag": ".article-preview-category__info>h2",
+        "title_cut": ".article-preview-category__info>span", 
+        "date_cut": ".article-preview-category__date>time"
     },
     {
-        "RESOURCE_NAME": "Nur.kz",
-        "RESOURCE_URL": "https://www.nur.kz/latest/",
-        "top_tag": "announce",
-        "bottom_tag": "lead",
-        "title_cut": "title", 
-        "date_cut": "article-preview-category__date-time"
+        "RESOURCE_NAME": "scientificrussia.ru",
+        "RESOURCE_URL": "https://scientificrussia.ru/news",
+        "top_tag": "div.announce",
+        "bottom_tag": ".lead>p",
+        "title_cut": "div.announce.title>a", 
+        "date_cut": ".props time"
     },
     {
-        "RESOURCE_NAME": "Nur.kz",
-        "RESOURCE_URL": "https://www.nur.kz/latest/",
-        "top_tag": "article-preview-category__content",
-        "bottom_tag": "article-preview-category__subhead",
-        "title_cut": "article-preview-category__text", 
-        "date_cut": "article-preview-category__date-time"
-    },
-    {
-        "RESOURCE_NAME": "Nur2.kz",
-        "RESOURCE_URL": "https://www.nur.kz/latest/",
-        "top_tag": "article-preview-category__content",
-        "bottom_tag": "article-preview-category__subhead",
-        "title_cut": "article-preview-category__text", 
-        "date_cut": "article-preview-category__date-time"
-    },
-    {
-        "RESOURCE_NAME": "Nur2.kz",
-        "RESOURCE_URL": "https://www.nur.kz/latests/",
-        "top_tag": "article-preview-category__content",
-        "bottom_tag": "article-preview-category__subhead",
-        "title_cut": "article-preview-category__text", 
-        "date_cut": "article-preview-category__date-time"
+        "RESOURCE_NAME": "aqparat.info",
+        "RESOURCE_URL": "https://aqparat.info/category/2-v_mire.html",
+        "top_tag": "article",
+        "bottom_tag": "article .description > p",
+        "title_cut": "header> h2 > a", 
+        "date_cut": ".props time"
     }
 ]
